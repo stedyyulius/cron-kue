@@ -11,9 +11,9 @@ let transporter = nodemailer.createTransport({
 });
 
 
-new CronJob('00 17 11 6 5 *', function() {
+new CronJob('00 51 11 6 5 *', function() {
     var job = queue.create('email',{
-      from:`Fuck <anjing@gmail.com>`,
+      from:`HALO STEDY <anjing@gmail.com>`,
       to: `stedyyulius@gmail.com`,
       subject: `Welcome Jing!`,
       text: 'WELCOME JING!!',
